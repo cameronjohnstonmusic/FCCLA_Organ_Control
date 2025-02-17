@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "rnbo",
-		"rect" : [ 59.0, 119.0, 1000.0, 755.0 ],
+		"rect" : [ 495.0, 462.0, 1000.0, 755.0 ],
 		"default_fontname" : "Lato",
 		"gridsize" : [ 15.0, 15.0 ],
 		"title" : "kill_all_notes",
@@ -169,7 +169,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 116.0, 178.0, 24.0, 24.0 ],
+					"patching_rect" : [ 116.0, 176.0, 24.0, 24.0 ],
 					"rnbo_classname" : "button",
 					"rnbo_serial" : 1,
 					"rnbo_uniqueid" : "button_obj-10"
@@ -183,7 +183,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 116.0, 111.0, 61.0, 23.0 ],
+					"patching_rect" : [ 117.0, 114.0, 61.0, 23.0 ],
 					"rnbo_classname" : "change",
 					"rnbo_extra_attributes" : 					{
 						"mode" : "default"
@@ -202,9 +202,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 116.0, 146.0, 40.0, 23.0 ],
+					"patching_rect" : [ 116.5, 146.0, 40.0, 23.0 ],
 					"rnbo_classname" : "sel",
-					"rnbo_serial" : 1,
+					"rnbo_serial" : 2,
 					"rnbo_uniqueid" : "sel_obj-2",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
@@ -233,12 +233,12 @@
 								"deprecated" : 0,
 								"inlet" : 1,
 								"type" : "number",
-								"defaultValue" : "64"
+								"defaultValue" : "42"
 							}
 ,
 							"match1" : 							{
 								"attrOrProp" : 1,
-								"digest" : "Bang if input matches 64",
+								"digest" : "Bang if input matches 42",
 								"isalias" : 0,
 								"aliases" : [  ],
 								"attachable" : 0,
@@ -281,7 +281,7 @@
 						"outputs" : [ 							{
 								"name" : "match1",
 								"type" : "bang",
-								"digest" : "Bang if input matches 64",
+								"digest" : "Bang if input matches 42",
 								"docked" : 0
 							}
 , 							{
@@ -299,7 +299,7 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "sel 64"
+					"text" : "sel 42"
 				}
 
 			}
@@ -377,14 +377,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-55", 2 ],
-					"midpoints" : [ 157.5, 242.0, 205.5, 242.0 ],
+					"destination" : [ "obj-55", 3 ],
+					"midpoints" : [ 157.5, 242.0, 221.5, 242.0 ],
 					"source" : [ "obj-57", 2 ]
 				}
 
 			}
  ],
-		"originid" : "pat-507"
+		"originid" : "pat-517"
 	}
 
 }
